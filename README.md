@@ -1,4 +1,4 @@
-# interview-task
+# Interview Task
 
 Refactor code in `test.js`.
 

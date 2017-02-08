@@ -1,9 +1,10 @@
-/**
- * Refactor and fix potential bugs.
- */
 
 var parentNode = document.querySelector('.my-app');
 
+/**
+* Function gets all links pointing to the https urls from inside of the
+* given parentNode. If parentNode is falsy - look for links in entire document.
+*/
 var getHttpsLinks = function () {
 
   parentNode = parentNode || document;
