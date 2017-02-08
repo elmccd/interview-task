@@ -20,5 +20,3 @@ var getHttpsLinks = function () {
 
   return links;
 };
-
-console.log(getHttpsLinks());
